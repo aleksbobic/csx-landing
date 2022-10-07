@@ -2,7 +2,7 @@
   "name": "csx-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "csxp.me",
+  "homepage": "https://aleksbobic.github.io",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
     "@chakra-ui/react": "^2.3.5",
