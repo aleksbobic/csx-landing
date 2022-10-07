@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/csx-landing/static/css/main.222144b8.css",
-    "main.js": "/csx-landing/static/js/main.cf6d42be.js",
-    "static/js/787.b17f0231.chunk.js": "/csx-landing/static/js/787.b17f0231.chunk.js",
-    "static/media/csx_1.png": "/csx-landing/static/media/csx_1.9ccf43fbe02531d4bea0.png",
-    "static/media/csx_2.png": "/csx-landing/static/media/csx_2.840360563d5d4092b769.png",
-    "static/media/network_4.png": "/csx-landing/static/media/network_4.9488d63ee39fed22af0c.png",
-    "static/media/network_1.png": "/csx-landing/static/media/network_1.68eeffb3a317f917a3ca.png",
-    "static/media/network_3.png": "/csx-landing/static/media/network_3.e3e97be0492e1fa3b640.png",
-    "static/media/network_2.png": "/csx-landing/static/media/network_2.f24c3bc4bfb9394f7834.png",
-    "static/media/csx_3.png": "/csx-landing/static/media/csx_3.61122558b03938f58fe7.png",
-    "static/media/logo.png": "/csx-landing/static/media/logo.da65d374dc6222aa02c0.png",
-    "static/media/logo512.png": "/csx-landing/static/media/logo512.7e8c94e7919d2bd023b4.png",
-    "static/media/github.svg": "/csx-landing/static/media/github.171b179b9abcd796dce0204e58bb5c5f.svg",
-    "index.html": "/csx-landing/index.html",
-    "main.222144b8.css.map": "/csx-landing/static/css/main.222144b8.css.map",
-    "main.cf6d42be.js.map": "/csx-landing/static/js/main.cf6d42be.js.map",
-    "787.b17f0231.chunk.js.map": "/csx-landing/static/js/787.b17f0231.chunk.js.map"
+    "main.css": "/csxp.me/static/css/main.222144b8.css",
+    "main.js": "/csxp.me/static/js/main.28bc1d71.js",
+    "static/js/787.b17f0231.chunk.js": "/csxp.me/static/js/787.b17f0231.chunk.js",
+    "static/media/csx_1.png": "/csxp.me/static/media/csx_1.9ccf43fbe02531d4bea0.png",
+    "static/media/csx_2.png": "/csxp.me/static/media/csx_2.840360563d5d4092b769.png",
+    "static/media/network_4.png": "/csxp.me/static/media/network_4.9488d63ee39fed22af0c.png",
+    "static/media/network_1.png": "/csxp.me/static/media/network_1.68eeffb3a317f917a3ca.png",
+    "static/media/network_3.png": "/csxp.me/static/media/network_3.e3e97be0492e1fa3b640.png",
+    "static/media/network_2.png": "/csxp.me/static/media/network_2.f24c3bc4bfb9394f7834.png",
+    "static/media/csx_3.png": "/csxp.me/static/media/csx_3.61122558b03938f58fe7.png",
+    "static/media/logo.png": "/csxp.me/static/media/logo.da65d374dc6222aa02c0.png",
+    "static/media/logo512.png": "/csxp.me/static/media/logo512.7e8c94e7919d2bd023b4.png",
+    "static/media/github.svg": "/csxp.me/static/media/github.171b179b9abcd796dce0204e58bb5c5f.svg",
+    "index.html": "/csxp.me/index.html",
+    "main.222144b8.css.map": "/csxp.me/static/css/main.222144b8.css.map",
+    "main.28bc1d71.js.map": "/csxp.me/static/js/main.28bc1d71.js.map",
+    "787.b17f0231.chunk.js.map": "/csxp.me/static/js/787.b17f0231.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.222144b8.css",
-    "static/js/main.cf6d42be.js"
+    "static/js/main.28bc1d71.js"
   ]
 }
