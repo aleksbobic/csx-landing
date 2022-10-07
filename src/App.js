@@ -27,14 +27,19 @@ import {
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
+import Plausible from "plausible-tracker";
 
 import "./App.css";
 function App() {
   const [shouldAnimate, setShouldAnimate] = useState(false);
+  const plausible = Plausible({
+    domain: "csxp.me",
+  });
 
   useEffect(() => {
     setShouldAnimate(true);
-  }, []);
+    plausible.trackPageview();
+  }, [plausible]);
 
   const renderFeatures = () => (
     <Box padding="50px 10px 50px 10px" zIndex="5" position="relative">
