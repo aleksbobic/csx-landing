@@ -48,7 +48,7 @@ function App() {
               "Custom node properties",
               "Custom edge properties",
               "Node statistics",
-              "Edge statiscs",
+              "Edge statistics",
               "Graph statistics",
               "Advanced search",
               "Direct connection exploration",
@@ -125,20 +125,20 @@ function App() {
   const renderHighlights = () => {
     const content = [
       {
-        title: "Visualise",
-        text: "CSX enables users to control their graphs through a set of advanced graph visualisation controls. You can modify the layout throguh layout algorithms or by moving individual nodes. Additionally you can attach node properties and chose to color the graph based on these properties. Despite networks being an efficient way of visualising and identifiying connections, sometimes it is easier to view data in a list or a table, therfore CSX provides users with a handy list and table display options.",
+        title: "Visualize",
+        text: "CSX enables users to control their graphs through advanced graph visualization controls. You can modify the layout through layout algorithms or by moving individual nodes. Additionally, you can attach node properties and choose to color the graph based on these properties. Although networks are an efficient way of visualizing and identifying connections, sometimes it is easier to view data in a list or a table; therefore, CSX provides users with handy list and table display options.",
         background: network2,
         image: csx1,
       },
       {
         title: "Model",
-        text: "CSX enables users to model their retrieved data through an advanced schema designer. You can express complex relations in your data with ease without worrying about connections in the original dataset. CSX automatically detects data types and provides possible relationships between features. When working with co-occurrence graph you can additionally add properties to your nodes which you can then explore either through connectivity, colors or stats.",
+        text: "CSX enables users to model their retrieved data through an advanced schema designer. You can easily express complex relations in your data without worrying about connections in the original dataset. CSX automatically detects data types and provides possible relationships between features. When working with a co-occurrence graph, you can add properties to your nodes that you can explore through connectivity, colors, or stats.",
         background: network3,
         image: csx2,
       },
       {
         title: "Explore",
-        text: "In addition to exploring your datas connectivity CSX enables you to explore your data through a set of customisable widgets. These can be used to not only get quantifiable insight into your data but also to filter your graph.",
+        text: "In addition to exploring your data connectivity, CSX enables you to explore your data through customizable widgets. These can be used to get quantifiable insight into your data and filter your graph.",
         background: network4,
         image: csx3,
       },

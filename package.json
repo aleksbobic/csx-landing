@@ -2,7 +2,7 @@
   "name": "csx-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aleksbobic.github.io/csx-landing",
+  "homepage": "https://aleksbobic.github.io",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
     "@chakra-ui/react": "^2.3.5",
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
