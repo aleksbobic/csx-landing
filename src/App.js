@@ -39,6 +39,7 @@ function App() {
   useEffect(() => {
     setShouldAnimate(true);
     plausible.trackPageview();
+    plausible.enableAutoOutboundTracking();
   }, [plausible]);
 
   const renderFeatures = () => (
