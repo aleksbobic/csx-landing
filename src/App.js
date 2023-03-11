@@ -10,6 +10,7 @@ import network3 from "./images/network_3.png";
 import network4 from "./images/network_4.png";
 import logo from "./logo.png";
 
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -25,9 +26,8 @@ import {
   VStack,
   Wrap,
 } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Plausible from "plausible-tracker";
+import { useEffect, useState } from "react";
 
 import "./App.css";
 function App() {
@@ -47,7 +47,7 @@ function App() {
       <Container maxWidth="container.lg">
         <VStack>
           <Heading size="lg">Features</Heading>
-          <Wrap>
+          <Wrap justify="center">
             {[
               "Network modeling",
               "CSV support",
@@ -66,6 +66,14 @@ function App() {
               "Table view",
               "juxtaposed views",
               "Data export",
+              "Edit History",
+              "Rich Markdown comments",
+              "Automatic report generation",
+              "Report sharing",
+              "Report downloading",
+              "Graph trimming",
+              "Graph expansion",
+              "Rich view settings",
             ].map((entry) => (
               <Text
                 backgroundColor="blackAlpha.400"
@@ -219,7 +227,7 @@ function App() {
             <b>prof. Christian Gütl</b>.
           </Text>
           <Text textAlign="left" fontWeight="bold" fontSize="sm">
-            CERN &copy; 2022
+            CERN &copy; 2023
           </Text>
         </Center>
         <Center maxWidth="500px">
@@ -277,11 +285,12 @@ function App() {
         <Box
           height="50px"
           top="0px"
-          position="absolute"
+          position="fixed"
           width="100%"
-          zIndex="4"
-          backdropFilter="blur(1px)"
+          zIndex="10"
+          backdropFilter="blur(2px)"
           backgroundColor="blackAlpha.200"
+          borderBottom="1px solid #ffffff0a"
         >
           <Container
             maxWidth="container.xl"
@@ -319,7 +328,7 @@ function App() {
           paddingTop="76px"
           paddingBottom="76px"
           position="absolute"
-          zIndex="10"
+          zIndex="5"
           maxWidth="container.md"
           maxHeight="container.xl"
           as="section"
@@ -391,6 +400,7 @@ function App() {
         overflow="hidden"
       >
         {renderHighlights()}
+
         {renderFeatures()}
         {renderFooter()}
       </VStack>
