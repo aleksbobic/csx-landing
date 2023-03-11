@@ -10,7 +10,7 @@ import network3 from "./images/network_3.png";
 import network4 from "./images/network_4.png";
 import logo from "./logo.png";
 
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { ChevronRightIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -139,20 +139,20 @@ function App() {
   const renderHighlights = () => {
     const content = [
       {
-        title: "Visualize",
-        text: "CSX enables users to control their graphs through advanced graph visualization controls. You can modify the layout through layout algorithms or by moving individual nodes. Additionally, you can attach node properties and choose to color the graph based on these properties. Although networks are an efficient way of visualizing and identifying connections, sometimes it is easier to view data in a list or a table; therefore, CSX provides users with handy list and table display options.",
+        title: "Visualize & Analyze",
+        text: "Discover the powerful graph visualization controls of CSX! With our advanced tools, you can easily modify data layouts using our layout algorithms or move individual nodes manually. Take your analysis to the next level by attaching node properties and even color coding the graph based on these properties. \nWhile networks are great for identifying connections, we understand that sometimes you need to view data in a more traditional format. That's why CSX offers a range of widgets that provide in-depth analysis through charts and statistics. With CSX, you have all the tools you need to get the most out of your network data visualization.",
         background: network2,
         image: csx1,
       },
       {
-        title: "Model",
-        text: "CSX enables users to model their retrieved data through an advanced schema designer. You can easily express complex relations in your data without worrying about connections in the original dataset. CSX automatically detects data types and provides possible relationships between features. When working with a co-occurrence graph, you can add properties to your nodes that you can explore through connectivity, colors, or stats.",
+        title: "Model & Wrangle",
+        text: "Welcome to the world of advanced data modeling with CSX! With our intuitive schema designer, you can easily model retrieved data and express even the most complex relationships without worrying about connections in the original dataset. Our advanced tool automatically detects data types and provides possible relationships between features, making the modeling process a breeze. If you're working with a co-occurrence graph, CSX is the perfect tool for you. Our platform allows you to add properties to your nodes that you can explore through connectivity, colors, or stats. This enables you to gain deeper insights into your data and make more informed decisions.",
         background: network3,
         image: csx2,
       },
       {
-        title: "Explore",
-        text: "In addition to exploring your data connectivity, CSX enables you to explore your data through customizable widgets. These can be used to get quantifiable insight into your data and filter your graph.",
+        title: "Explore & Record",
+        text: "Experience the power of advanced data modeling with CSX today! Our platform offers the perfect solution for those who want to take their data analysis to the next level. Don't wait any longer, sign up for CSX now and start exploring your data like never before! Looking for a powerful tool that not only lets you explore data connectivity but also enables you to create studies that contextualize your data exploration? Look no further than CSX! Our platform allows you to create studies and add rich Markdown enabled comments, screenshots, and charts to them, giving you a complete picture of your data. When you're ready to share your findings, CSX has got you covered. Our platform makes it easy to automatically generate a presentation report with just the click of a button. Share your findings with others and take your data analysis to the next level! Whether you're a data analyst, researcher, or simply someone looking to gain deeper insights into your data, CSX has everything you need.",
         background: network4,
         image: csx3,
       },
@@ -354,8 +354,8 @@ function App() {
                 paddingRight="50px"
                 fontSize={["xs", "sm"]}
               >
-                Explore your data like never before with a new open-source
-                information retrieval and network analytics tool built at CERN.
+                Explore your data like never before with advanced retrieval and
+                modification tools. From trimming to expanding graphs CSX
               </Text>
               <Button
                 variant="solid"
@@ -363,14 +363,14 @@ function App() {
                 opacity="0.76"
                 role="group"
                 boxSizing="border-box"
-                rightIcon={<ArrowForwardIcon />}
+                rightIcon={<ChevronRightIcon style={{ marginLeft: "-5px" }} />}
                 as={Link}
                 href="https://github.com/aleksbobic/csx"
                 isExternal
                 _hover={{ textDecoration: "none", opacity: 1 }}
                 transition="all ease-in-out 0.6"
               >
-                Github page
+                GitHub
               </Button>
             </VStack>
           </Center>
