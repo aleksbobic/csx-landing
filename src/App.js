@@ -71,8 +71,6 @@ function App() {
               "Automatic report generation",
               "Report sharing",
               "Report downloading",
-              "Graph trimming",
-              "Graph expansion",
               "Rich view settings",
             ].map((entry) => (
               <Text
@@ -360,17 +358,23 @@ function App() {
               <Button
                 variant="solid"
                 background="linear-gradient(129deg, rgba(102,74,182,1) 0%, rgba(153,115,188,1) 55%, rgba(172,109,182,1) 100%);"
-                opacity="0.76"
+                opacity="1"
+                borderRadius="full"
+                size="sm"
+                fontSize="xs"
+                fontWeight="bold"
                 role="group"
                 boxSizing="border-box"
-                rightIcon={<ChevronRightIcon style={{ marginLeft: "-5px" }} />}
                 as={Link}
-                href="https://github.com/aleksbobic/csx"
+                style={{
+                  padding: "4px 20px",
+                }}
+                href="https://demo.csxp.me"
                 isExternal
-                _hover={{ textDecoration: "none", opacity: 1 }}
+                _hover={{ textDecoration: "none", opacity: 0.8 }}
                 transition="all ease-in-out 0.6"
               >
-                GitHub
+                OPEN APP!
               </Button>
             </VStack>
           </Center>
